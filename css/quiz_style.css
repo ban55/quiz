@@ -15,16 +15,19 @@ body {
   margin: auto;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1em;
-  font-style: oblique;
+  font-font-style: oblique;
   background-color: lightblue;
 }
 
-/* line 29, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 31, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 h1 {
   color: #58a0e0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2em;
+  font-font-style: oblique;
 }
 
-/* line 33, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 41, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 #content {
   border: 2px solid #064277;
   border-radius: 20px;
@@ -33,36 +36,37 @@ h1 {
   background-color: aliceblue;
 }
 
-/* line 41, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 49, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 #list {
   border: 2px solid #064277;
   border-radius: 20px;
   background-color: aliceblue;
 }
 
-/* line 47, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 55, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 h2 {
   color: #064277;
 }
 
-/* line 51, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 59, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 h3 {
   margin-left: 30px;
   color: #58a0e0;
 }
 
-/* line 56, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 64, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 ul {
   margin-left: 30px;
 }
 
-/* line 60, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 68, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 p {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-style: normal;
+  font-size: 1em;
+  font-font-style: oblique;
 }
 
-/* line 65, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 78, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 .samplepara {
   border: 3px solid #58a0e0;
   border-radius: 5px;
@@ -70,7 +74,7 @@ p {
   background-color: white;
 }
 
-/* line 72, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 85, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 footer {
   border: 2px solid #064277;
   border-radius: 20px;
@@ -79,11 +83,11 @@ footer {
   background-color: aliceblue;
 }
 
-/* line 80, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
+/* line 93, /Users/ban5/Desktop/bwm399/quiz/scss/quiz_style.scss */
 #footer {
-  font-size: .75em;
-  font-style: italic;
-  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1em;
+  font-font-style: oblique;
   color: #064277;
   text-align: center;
 }

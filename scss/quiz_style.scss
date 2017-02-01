@@ -19,15 +19,23 @@ header {
 body {
     width: 600px;
     margin: auto;
-    font-family: $baseFont;
-    font-size: 1em;
-    font-style:oblique;
+    font: {
+        family: $baseFont; 
+        size: 1em;
+        font-style: oblique;
+    }
     background-color: $backgroundColor;
 }
 
 
 h1 {
     color:#58a0e0;
+    
+    font: {
+        family: $baseFont; 
+        size: 2em;
+        font-style: oblique;
+    }
 }
 
 #content {
@@ -58,8 +66,13 @@ ul{
 }
 
 p{
-    font-family: $baseFont;
-    font-style:normal;
+    //font-family: $baseFont;
+    //font-style:normal;
+    font: {
+        family: $baseFont; 
+        size: 1em;
+        font-style: oblique;
+    }
 }
 
 .samplepara {
@@ -78,9 +91,14 @@ footer {
 }
 
 #footer {
-    font-size: .75em;
-    font-style:italic;
-    font-weight: bold;
+    //font-size: .75em;
+    //font-style:italic;
+    //font-weight: bold;
+    font: {
+        family: $baseFont; 
+        size: 1em;
+        font-style: oblique;
+    }
     color: #064277;
     text-align: center;
 }
