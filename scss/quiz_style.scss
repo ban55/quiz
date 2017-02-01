@@ -1,10 +1,17 @@
 /* Quiz styles */
 
+//SASS 
+$backgroundColor: lightblue;
+$baseFont: "Comic Sans MS", cursive, sans-serif;
+$leftMargin: 30px;
+$padding: 15px;
+
+
 header {
     border: 2px solid #064277;
     border-radius: 20px;
     margin: 10px auto;
-    padding: 10px;
+    padding: $padding;
     background-color: aliceblue;
     text-align: center;
 }
@@ -12,10 +19,10 @@ header {
 body {
     width: 600px;
     margin: auto;
-    font-family:sans-serif;
+    font-family: $baseFont;
     font-size: 1em;
     font-style:oblique;
-    background-color: #dadadb
+    background-color: $backgroundColor;
 }
 
 
@@ -27,7 +34,7 @@ h1 {
     border: 2px solid #064277;
     border-radius: 20px;
     margin: 10px auto;
-    padding: 10px;
+    padding: $padding;
     background-color: aliceblue;
 }
 
@@ -42,23 +49,23 @@ h2 {
 }
 
 h3 {
-    margin-left: 50px;
+    margin-left: $leftMargin;
     color:#58a0e0
 }
 
 ul{
-    margin-left: 50px;
+    margin-left: $leftMargin;
 }
 
 p{
-    font-family: serif;
+    font-family: $baseFont;
     font-style:normal;
 }
 
 .samplepara {
     border: 3px solid #58a0e0;
     border-radius: 5px;
-    padding: 10px;
+    padding: $padding;
     background-color: white;
 }
 
@@ -66,7 +73,7 @@ footer {
     border: 2px solid #064277;
     border-radius: 20px;
     margin: 10px auto;
-    padding: 10px;
+    padding: $padding;
     background-color: aliceblue;
 }
 
